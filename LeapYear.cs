@@ -11,7 +11,7 @@ class LeapYear
     Console.WriteLine("You were alive during these leap years:");
     for (int year = birthYear; year<=2020; year ++)
     {
-      if (year %4 === 0)
+      if (year %4 == 0)
       {
         Console.WriteLine(year);
       }
